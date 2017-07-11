@@ -1,0 +1,139 @@
+/* OpenSans */
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans Light;
+    src: url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans Semibold;
+    src: url(../fonts/OpenSans/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSans Bold;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans Extra Bold;
+    src: url(../fonts/OpenSans/OpenSans-ExtraBold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h1 { 
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 3.9px;
+    color: #333333;
+    text-transform: uppercase;
+}
+h2 {
+   
+}
+h3 {
+}
+
+
+.flex-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flex-center {
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.flex-center_vert {
+    -webkit-align-items: center;
+            align-items: center;
+}
+.flex-center_hor {
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.noselect {
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;      
+    user-select: none; 
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+.no-padding {
+    padding: 0;
+}
+
+::placeholder               {font-family: 'OpenSans';font-size: inherit;color: #000;opacity: 1;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+::-webkit-input-placeholder {font-family: 'OpenSans';font-size: inherit;color: #000;opacity: 1;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+::-moz-placeholder          {font-family: 'OpenSans';font-size: inherit;color: #000;opacity: 1;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+:-moz-placeholder           {font-family: 'OpenSans';font-size: inherit;color: #000;opacity: 1;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+:-ms-input-placeholder      {font-family: 'OpenSans';font-size: inherit;color: #000;opacity: 1;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+
+::selection {
+    background: #000;
+    color: #fff;
+}
+::-moz-selection {
+    background: #000;
+    color: #fff;
+}
+.main {
+    height: 100vh;
+}
+.enter {
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+color: #828282;
+
+}
+/* MEDIA */
+@media (max-width: 1599px) { 
+
+}
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+    
+}
+@media (max-width: 767px) { 
+
+}
+@media (max-width: 575px) {
+
+}
+@media (max-width: 413px) {
+}
