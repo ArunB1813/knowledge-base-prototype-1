@@ -1,5 +1,4 @@
 $(".enter").click(function (event) {
-	$( this ).fadeOut(100);
-
+	$( this ).fadeOut(0);
 	$(".auth").fadeIn(100);
 });
