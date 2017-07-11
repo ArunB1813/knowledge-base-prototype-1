@@ -50,10 +50,22 @@
     <!-- STYLES & SCRIPTS END -->
 </head>
 <body>
-    <div class="container">
-        <h1>knowledge base</h1>
-    </div>
-    </div>
+    <div class="main container flex-block flex-center">
+        <div class="title">
+            <h1>knowledge base</h1>
+        </div>
+        <div class="enter" ><span>войти</span></div>
+        <div class="auth flex-block" style="display:none;">
+            <div class="flex-block login">
+                <label>login</label>
+                <input type="text">
+            </div>
+            <div class="flex-block password">
+                <label>password</label>
+                <input type="password">
+            </div>
+        </div>
+
 	<!-- HEADER -->
 	<!-- HEADER END -->
 
@@ -61,6 +73,7 @@
 	<!-- FOOTER END -->
 
 	<!-- SCRIPT CALL's -->
+    <script src="js/calls/app.js"></script>
 	<!-- SCRIPT CALL's END -->
 </body>
 </html>
